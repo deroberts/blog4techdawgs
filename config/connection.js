@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
     process.env.DB_NAME,
     process.env.DB_USER,
     process.env.DB_PASS,
-    process.env.API_KEY,
+    // process.env.API_KEY,
     {
       host: '127.0.0.1',
       dialect: 'mysql',
