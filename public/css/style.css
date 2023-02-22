@@ -20,6 +20,22 @@ body {
   
 }
 
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 500px;
+
+}
+
+.card p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .sub-header {
   font-size: 40px;
   color: white;
@@ -154,6 +170,7 @@ input {
 #review-name{
   height: 30px;
   width: 150px;
+  /* font-size: 40px; */
 }
 
 #review-desc{
