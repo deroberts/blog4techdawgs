@@ -9,7 +9,7 @@
 
       {{#each reviews as |review|}}
         <div class="card card-body mb-2">
-          <h4>{{format_date created_at}}{{review.title}}</h4>
+          <h4>{{review.title}}</h4>
           <p>{{review.review}}</p>
         </div>
         {{!-- <form class="reply-comment-form"  data-id={{review.id}}>
