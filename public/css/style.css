@@ -1,18 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 :root{
   font-size: 14px;
 }
 * {
 
-  font-family: "Bebas Neue", cursive;
+  font-family: "Orbitron", sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
   margin: 0%;
+  margin-left: 100px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
 }
 
 body {
-  background-color: rgb(107, 159, 204);
+  background: linear-gradient(to bottom, #ff6ec7, #00e0ff, #e91eff);
   box-sizing: border-box;
   margin: 0;
   
@@ -20,6 +22,10 @@ body {
 
 .sub-header {
   font-size: 40px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .banner {
@@ -30,12 +36,18 @@ body {
   align-items: center;
   padding:0 3rem ;
   margin-bottom: 3rem;
+  background-image: url('/images/cyberdog2.png');
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  background-position: center center;
+
+
 }
 
-.logo {
+/* .logo {
 
-  width: 9rem;
-}
+  width: 20rem;
+} */
 
 .login-body {
   display: flex;
@@ -58,7 +70,11 @@ body {
 }
 .navbar > a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 /* collapsible section for review replies  */
 /* .collapsible[data-state="collapsed"] > * {
@@ -80,6 +96,7 @@ input {
 
   form {
     margin-bottom:10px;
+    margin-left: 100px;
    
   }
 
@@ -128,10 +145,10 @@ input {
 
   
 .reviews{
-  margin-left: 10px;
+  margin-left: 100px;
 }
 .reviews-text{
-  margin-left: 10px;
+  margin-left: 100px;
 }
 
 #review-name{
